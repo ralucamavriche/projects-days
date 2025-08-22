@@ -11,9 +11,10 @@ A simple web project template for organizing and showcasing daily coding project
 ## Getting Started
 
 1. **Clone the repository:**
-	```sh
-	git clone https://github.com/ralucamavriche/projects-days.git
-	```
+
+   ```sh
+   git clone https://github.com/ralucamavriche/projects-days.git
+   ```
 
 2. **Open `index.html` in your browser** to view the homepage.
 
@@ -32,12 +33,30 @@ You can deploy this project using GitHub Pages:
 ## Project Structure
 
 ```
+projects-days/
 ├── index.html
 ├── css/
-│   └── style.css
+│ └── style.css
+├── js/
+│ └── main.js
+├── expanding-cards-project/
+│ ├── index.html
+│ ├── css/
+│ │ └── style.css
+│ └── js/
+│ └── main.js
 └── README.md
 ```
 
-## License
 
-This project is open source and available under the [MIT License](LICENSE).
+## 1. Expanding Cards Project
+
+The Expanding Cards project is an interactive UI component that displays a set of cards. Only one card is expanded at a time, showing its title and background image. Clicking another card will expand it and collapse the others.
+
+### Features
+- Responsive layout using Flexbox
+- Smooth transitions for expanding/collapsing cards
+- Background images for each card
+- Only the active card displays its title
+- Accessible via mouse and keyboard
+

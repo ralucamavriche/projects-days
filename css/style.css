@@ -1,0 +1,87 @@
+:root {
+  /* FONTS */
+  --FF: "Segoe UI", "Muli", Arial, sans-serif;
+
+  /* COLORS */
+  --BODY-BGCOLOR: #f6f8fa;
+  --BODY-COLOR: #222;
+  --MAIN-COLOR: #2d6cdf;
+  --WHITE-COLOR: #fff;
+  --LINK-HOVER-COLOR: #174ea6;
+  --BOX-SHADOW-COLOR: rgba(44, 62, 80, 0.08);
+  --FOOTER-BGCOLOR: #e9ecef;
+  --FOOTER-COLOR: #555;
+  --FOOTER-BORDER-COLOR: #d1d5db;
+
+  /* STANDARD PADDING */
+  --PADDING: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--FF);
+  background: var(--BODY-BGCOLOR);
+  color: var(--BODY-COLOR);
+}
+
+header {
+  background: var(--MAIN-COLOR);
+  color: var(--WHITE-COLOR);
+  padding: var(--PADDING) 0 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px var(--BOX-SHADOW-COLOR);
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.project-list {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: var(--WHITE-COLOR);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px var(--BOX-SHADOW-COLOR);
+  padding: var(--PADDING);
+}
+
+.project-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-list li {
+  margin-bottom: 1.2rem;
+}
+
+.project-list a {
+  text-decoration: none;
+  color: var(--MAIN-COLOR);
+  font-size: 1.15rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.project-list a:hover {
+  color: var(--LINK-HOVER-COLOR);
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: var(--FOOTER-BGCOLOR);
+  color: var(--FOOTER-COLOR);
+  font-size: 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid var(--FOOTER-BORDER-COLOR);
+}
